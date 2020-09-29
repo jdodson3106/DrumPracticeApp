@@ -1,10 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04da6a3d-c18b-4441-b13d-790b4b021aba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/DrumPracticeApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/conf/spring/resources.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/conf/spring/resources.groovy" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/server">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectId" id="1iA5lrUyUMLGAiSy0gNlEKv2uZu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grails: server" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="$PROJECT_DIR$/server" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04da6a3d-c18b-4441-b13d-790b4b021aba" name="Default Changelist" comment="" />
+      <created>1601337709307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601337709307</updated>
+      <workItem from="1601337710373" duration="126000" />
+      <workItem from="1601337838653" duration="239000" />
+      <workItem from="1601338088887" duration="387000" />
+      <workItem from="1601338541513" duration="2363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TraitInjectorService">
+    <option name="state">
+      <map>
+        <entry key="DrumPracticeApp.server.main">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/4.0.4/23777aa2696090d8a8a04d7561ff557a98354800/grails-plugin-services-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/4.0.4/c41107a35f86a52b9d227ba6b4a1abfa7c87dbfd/grails-plugin-rest-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/4.0.4/9d8d01afc56a77ebd825c36f3248bae45c619a64/grails-core-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.1/9243a8d4b70e5454df2d96a52fd16323f4bab9b5/converters-4.0.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/4.0.4/e444a4f180d966421874207e0feebf756650f3bc/grails-plugin-codecs-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/4.0.2/56c734464c8d4ee2d8ac935d5138e2c4a7621b56/spring-security-core-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/4.0.2/a520a87c92c720b4b875e2f8fac51c831c348502/grails-taglib-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/4.0.4/7982851e47600f42e129832bb755dfc1a1be6138/grails-web-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/4.0.4/17a26dfb2abdda6011211ac99368cd230abd1162/grails-web-common-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/4.0.4/c1eba24fdfc5df44729e5587dee403984fd51a05/grails-plugin-controllers-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/4.0.2/cf3405663d2e5ac863e7112e9a4c124ccb82fca2/grails-web-taglib-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/4.0.4/9eb6ea5050360fcaad74780265527225cd76954f/grails-web-databinding-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.0.4/1babd3f9065f39105446421d9f88b20d77ae865e/hibernate5-7.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/4.0.4/ff15eeb6563c14ad5f91947a1fbcd91a875dcf3b/grails-plugin-validation-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.4/f8c240b33c97096963d65c1bab7a92d870f4bb64/grails-web-url-mappings-4.0.4.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.0.6.RELEASE/505ea058ae5bb35436cd01e7fd94bc7cb9fdb00d/grails-datastore-gorm-support-7.0.6.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.4/f8c240b33c97096963d65c1bab7a92d870f4bb64/grails-web-url-mappings-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/4.0.4/40092049aa3c26e8d2514302fb8d5ae612161e79/grails-plugin-interceptors-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/4.0.4/4e1424fc77bf8ebf64577b1a074b0669888e31fb/grails-plugin-domain-class-4.0.4.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="grails.plugin.springsecurity.ControllerMixin" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+        <entry key="DrumPracticeApp.server.test">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/4.0.4/23777aa2696090d8a8a04d7561ff557a98354800/grails-plugin-services-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/4.0.4/c41107a35f86a52b9d227ba6b4a1abfa7c87dbfd/grails-plugin-rest-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/4.0.4/9d8d01afc56a77ebd825c36f3248bae45c619a64/grails-core-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.1/9243a8d4b70e5454df2d96a52fd16323f4bab9b5/converters-4.0.1.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/4.0.4/e444a4f180d966421874207e0feebf756650f3bc/grails-plugin-codecs-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/spring-security-core/4.0.2/56c734464c8d4ee2d8ac935d5138e2c4a7621b56/spring-security-core-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/4.0.2/a520a87c92c720b4b875e2f8fac51c831c348502/grails-taglib-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gsp/4.0.2/73c9aeeedd1ec8f0a9bc7955103f50efb4433be0/gsp-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/4.0.4/7982851e47600f42e129832bb755dfc1a1be6138/grails-web-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/4.0.4/17a26dfb2abdda6011211ac99368cd230abd1162/grails-web-common-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/4.0.4/c1eba24fdfc5df44729e5587dee403984fd51a05/grails-plugin-controllers-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/4.0.2/cf3405663d2e5ac863e7112e9a4c124ccb82fca2/grails-web-taglib-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/4.0.4/9eb6ea5050360fcaad74780265527225cd76954f/grails-web-databinding-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.0.4/1babd3f9065f39105446421d9f88b20d77ae865e/hibernate5-7.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/4.0.4/ff15eeb6563c14ad5f91947a1fbcd91a875dcf3b/grails-plugin-validation-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.4/f8c240b33c97096963d65c1bab7a92d870f4bb64/grails-web-url-mappings-4.0.4.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.0.6.RELEASE/505ea058ae5bb35436cd01e7fd94bc7cb9fdb00d/grails-datastore-gorm-support-7.0.6.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.4/f8c240b33c97096963d65c1bab7a92d870f4bb64/grails-web-url-mappings-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/4.0.4/40092049aa3c26e8d2514302fb8d5ae612161e79/grails-plugin-interceptors-4.0.4.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/4.0.4/4e1424fc77bf8ebf64577b1a074b0669888e31fb/grails-plugin-domain-class-4.0.4.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.gsp.TagLibraryInvoker" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="grails.plugin.springsecurity.ControllerMixin" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="43" key="SettingsEditor" timestamp="1601338523692">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1601338523692" />
   </component>
 </project>
