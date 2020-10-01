@@ -30,19 +30,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04da6a3d-c18b-4441-b13d-790b4b021aba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DrumPracticeApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/conf/spring/resources.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/conf/spring/resources.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Bpm.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Bpm.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Exercise.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Exercise.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Journal.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Journal.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/PracticeKiller.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/PracticeKiller.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/PracticeSession.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/PracticeSession.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Schedule.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/Schedule.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/SessionDetails.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/domain/practiceapp/SessionDetails.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +107,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +127,7 @@
       <setting name="grailsApplicationRoot" value="$PROJECT_DIR$/server" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -139,7 +142,8 @@
       <workItem from="1601337710373" duration="126000" />
       <workItem from="1601337838653" duration="239000" />
       <workItem from="1601338088887" duration="387000" />
-      <workItem from="1601338541513" duration="2363000" />
+      <workItem from="1601338541513" duration="2771000" />
+      <workItem from="1601554180042" duration="357000" />
     </task>
     <servers />
   </component>
@@ -327,6 +331,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1601383755227">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601383755227" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1601383755226">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601383755226" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1601383755225">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601383755225" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1601383755227">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601383755227" />
     <state x="208" y="43" key="SettingsEditor" timestamp="1601338523692">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

@@ -1,6 +1,8 @@
 package practiceapp
 
-class Exercise {
+import org.grails.datastore.gorm.GormEntity
+
+class Exercise implements Serializable, GormEntity<Exercise>{
 
     PracticeSession session
     String name

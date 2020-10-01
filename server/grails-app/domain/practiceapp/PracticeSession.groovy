@@ -1,6 +1,8 @@
 package practiceapp
 
-class PracticeSession {
+import org.grails.datastore.gorm.GormEntity
+
+class PracticeSession implements Serializable, GormEntity<PracticeSession> {
 
     User user
     double begin = 0

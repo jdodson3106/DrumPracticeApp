@@ -1,6 +1,8 @@
 package practiceapp
 
-class Journal {
+import org.grails.datastore.gorm.GormEntity
+
+class Journal implements Serializable, GormEntity<Journal>{
 
     static constraints = {
     }
